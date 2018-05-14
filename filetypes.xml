@@ -12,6 +12,7 @@
       <mapping pattern="help" type="Bash" />
       <mapping pattern="install" type="Bash" />
       <mapping pattern="Dockerfile.*" type="Dockerfile" />
+      <mapping ext="sample" type="JSON" />
       <mapping pattern="Jenkinsfile" type="PLAIN_TEXT" />
       <mapping pattern=".netrc" type="PLAIN_TEXT" />
       <mapping pattern=".version" type="PLAIN_TEXT" />
