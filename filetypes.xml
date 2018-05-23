@@ -1,26 +1,27 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern=".buildkite.environment" type="Bash" />
+      <mapping pattern="test" type="Bash" />
+      <mapping pattern="postinstall" type="Bash" />
+      <mapping pattern="init" type="Bash" />
+      <mapping pattern="start" type="Bash" />
+      <mapping pattern="go-globals" type="Bash" />
+      <mapping pattern=".globals" type="Bash" />
       <mapping pattern="environment" type="Bash" />
       <mapping pattern="go" type="Bash" />
-      <mapping pattern="start" type="Bash" />
-      <mapping pattern=".globals" type="Bash" />
-      <mapping pattern="help" type="Bash" />
-      <mapping pattern="test" type="Bash" />
-      <mapping pattern="install" type="Bash" />
-      <mapping pattern=".buildkite.environment" type="Bash" />
-      <mapping pattern="postinstall" type="Bash" />
-      <mapping pattern="go-globals" type="Bash" />
       <mapping pattern="server" type="Bash" />
-      <mapping pattern="init" type="Bash" />
+      <mapping pattern="help" type="Bash" />
+      <mapping pattern="install" type="Bash" />
       <mapping pattern="Dockerfile.*" type="Dockerfile" />
-      <mapping pattern=".help" type="PLAIN_TEXT" />
-      <mapping pattern="secrets" type="PLAIN_TEXT" />
+      <mapping pattern="Jenkinsfile" type="PLAIN_TEXT" />
       <mapping pattern=".netrc" type="PLAIN_TEXT" />
       <mapping pattern=".version" type="PLAIN_TEXT" />
-      <mapping pattern=".common" type="PLAIN_TEXT" />
+      <mapping pattern=".help" type="PLAIN_TEXT" />
+      <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern=".env.test" type="PLAIN_TEXT" />
-      <mapping pattern="Jenkinsfile" type="PLAIN_TEXT" />
+      <mapping pattern="secrets" type="PLAIN_TEXT" />
+      <mapping pattern=".common" type="PLAIN_TEXT" />
       <mapping ext="usage" type="PLAIN_TEXT" />
       <mapping ext="help" type="PLAIN_TEXT" />
       <mapping ext="env" type="PLAIN_TEXT" />
